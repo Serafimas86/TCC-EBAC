@@ -7,10 +7,10 @@ it('Deve cadastrar novo cupom', () => {
             authorization: 'Basic YWRtaW5fZWJhYzpAYWRtaW4hJmJAYyEyMDIy'
         },
         body: {
-            "code": "desconto de 21",
-            "amount": "21.00",
+            "code": "desconto de 23",
+            "amount": "23.00",
             "discount_type": "fixed_product",
-            "description": "Desconto 21"
+            "description": "Desconto 23"
         }
 
     }).then((response) => {
