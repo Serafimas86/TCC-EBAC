@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Clonar repositorio') {
+            steps {
+                git branch: 'master', url: 'https://github.com/Serafimas86/TCC-EBAC.git'
+            }
+        }
+        
+        stage('Instalar dependencias') {
+            steps {
+                powershell 'npm install'
+            }
+        }
+        
+        stage('Executar testes') {
+            steps {
+                powershell  'npx cypress open'
+            }
+        }
+        
+    }
+}
