@@ -5,4 +5,7 @@
 - CSS
 - JAVASCRIPT
 
-<img src= './cypress/gif/Teste automatizado.gif'>
+<p align="center">
+  <img src="./cypress/gif/Teste automatizado.gif" width="500px">
+</p>
+
