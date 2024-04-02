@@ -6,6 +6,6 @@
 - JAVASCRIPT
 
 <p align="center">
-  <img src="./cypress/gif/Teste automatizado.gif" width="500px">
+  <img src="./cypress/gif/Teste automatizado.gif" width="90%">
 </p>
 
